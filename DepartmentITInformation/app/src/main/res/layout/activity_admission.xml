@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdmissionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbarlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolBar"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:background="#03A9F4"
+                app:navigationIcon="@drawable/back"
+                app:navigationIconTint="@color/black"
+                app:titleCentered="true"
+                app:titleTextColor="@color/black">
+
+                <TextView
+                    android:id="@+id/appbartitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="?actionBarSize"
+                    android:layout_marginEnd="25dp"
+                    android:background="#03A9F4"
+                    android:fontFamily="@font/heavita"
+                    android:gravity="center_vertical"
+                    android:text="@string/admissions"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    tools:ignore="RtlCompat,TextContrastCheck" />
+
+            </com.google.android.material.appbar.MaterialToolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/heavita"
+            android:textAlignment="center"
+            android:text="@string/entry_requirements_for_jamaican_students"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtAdmission1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/admission1"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtAdmission2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/admission2"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtAdmission3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/admission3"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/heavita"
+            android:textAlignment="center"
+            android:text="@string/entry_requirements_for_international_students"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtAdmissionIn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/montserrat"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnApply"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/apply"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/blue"
+            tools:ignore="VisualLintButtonSize,TextContrastCheck" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            app:layout_behavior="com.google.android.material.behavior.HideBottomViewOnScrollBehavior"
+            app:srcCompat="@android:drawable/ic_dialog_email"
+            app:tint="@color/black"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+</ScrollView>

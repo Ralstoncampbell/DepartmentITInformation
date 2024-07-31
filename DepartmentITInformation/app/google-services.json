@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "50177726555",
+    "firebase_url": "https://department-it-d275b-default-rtdb.firebaseio.com",
+    "project_id": "department-it-d275b",
+    "storage_bucket": "department-it-d275b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50177726555:android:aa32588a6be23d3ec5077e",
+        "android_client_info": {
+          "package_name": "com.example.departmentitinformation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8uhTAvAP4dxGWMMUYKE-OfvI8vComzHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:50177726555:android:0852f83fc4e34eb3c5077e",
+        "android_client_info": {
+          "package_name": "com.ucc.departmentitinformation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8uhTAvAP4dxGWMMUYKE-OfvI8vComzHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

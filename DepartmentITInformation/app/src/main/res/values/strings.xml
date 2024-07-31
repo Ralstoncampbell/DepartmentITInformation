@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Department IT Information</string>
+    <string name="admission_paragraph1">Your first paragraph text here.</string>
+    <string name="admission_paragraph2">Your second paragraph text here.</string>
+    <string name="admission_paragraph3">Your third paragraph text here.</string>
+    <string name="social_media">Social Media</string>
+    <string name="connect_with_us_on_social_media">Connect With us on Social Media</string>
+    <string name="code">Code</string>
+    <string name="_0">0</string>
+    <string name="title">Title</string>
+    <string name="description_here" tools:ignore="TypographyEllipsis">Description here...</string>
+    <string name="pre_requisites">Pre Requisites</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="faculty_information">Faculty Information</string>
+    <string name="course_information">Course Information</string>
+    <string name="Social_media">Social Media</string>
+    <string name="faculty_staff_directory">Faculty/Staff Directory</string>
+    <string name="courses">Courses</string>
+    <string name="admission1" tools:ignore="Typos">Admission1</string>
+    <string name="admission2">Admission2</string>
+    <string name="admission3">Admission3</string>
+    <string name="entry_requirements_for_international_students">ENTRY REQUIREMENTS FOR INTERNATIONAL STUDENTS</string>
+    <string name="apply">Apply</string>
+    <string name="entry_requirements_for_jamaican_students">ENTRY REQUIREMENTS FOR JAMAICAN STUDENTS</string>
+    <string name="admissions">Admissions</string>
+    <string name="description" />
+    <string name="Description">Description</string>
+</resources>
